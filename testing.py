@@ -1,5 +1,5 @@
 different sport:
-water-polo
+water polo
 volleyball
 tennis
 swimming
