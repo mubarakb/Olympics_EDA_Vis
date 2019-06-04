@@ -16,6 +16,7 @@ colors = {
     'text': '#7FDBFF'
 }
 
+
 app.layout = html.Div(style = {'fontFamily': 'Sans-Serif'}, children=[
     html.H1(
         children = 'Summer Olympics Data From 1980-2016',
