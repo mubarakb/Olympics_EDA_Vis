@@ -49,6 +49,8 @@ foo_names = foo_events.findAll('strong', {'class':'name'})
 #     return(set(zip(names1_text, scores1_text)))
 
 
+
+
 foo_names_text=[]
 for name in foo_names:
     names1_text.append(name.text)
