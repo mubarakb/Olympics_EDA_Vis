@@ -4,7 +4,6 @@ from olympics_package import db
 import numpy as np
 
 
-
 def all_countries():
     return Country.query.all()
 
