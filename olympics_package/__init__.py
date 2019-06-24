@@ -30,6 +30,7 @@ Session = sessionmaker(bind=engine)
 # create a Session
 session = Session()
 
+
 # from olympics_package import routes
 # from spotify_package.seed import *
 from olympics_package.dashboard import *
