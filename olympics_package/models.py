@@ -3,11 +3,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import *
 from sqlalchemy.sql import *
 
-
 Base = declarative_base()
 
 from olympics_package import db
-
 
 class Country(db.Model):
     __tablename__ = "countries"
