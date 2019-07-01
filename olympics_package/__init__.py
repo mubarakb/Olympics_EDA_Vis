@@ -17,6 +17,7 @@ server.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///olympics.db'
 server.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # server.config['SQLALCHEMY_ECHO'] = True
 
+
 db = SQLAlchemy(server)
 
 app = dash.Dash(__name__, server=server, url_base_pathname = '/')
